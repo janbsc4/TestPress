@@ -1,16 +1,16 @@
-/* line 1, assets/stylesheets/site.css.scss */
+/* line 1, assets/stylesheets/post.css.scss */
 body {
   font-family: sans-serif;
   padding: 0;
-  color: #000;
-  background: #fefefe;
+  color: black;
+  background: skyblue;
   max-width: 40rem;
   margin: 0 auto;
   padding: 1rem;
   line-height: 1.5rem;
 }
 
-/* line 12, assets/stylesheets/site.css.scss */
+/* line 12, assets/stylesheets/post.css.scss */
 header {
   display: flex;
   flex-direction: column;
@@ -18,79 +18,79 @@ header {
   margin: 2rem auto;
 }
 
-/* line 19, assets/stylesheets/site.css.scss */
+/* line 19, assets/stylesheets/post.css.scss */
 .logo {
   max-width: 4rem;
   max-height: 4rem;
 }
 
-/* line 24, assets/stylesheets/site.css.scss */
+/* line 24, assets/stylesheets/post.css.scss */
 .logo-light {
   display: block;
 }
 
-/* line 28, assets/stylesheets/site.css.scss */
+/* line 28, assets/stylesheets/post.css.scss */
 .logo-dark {
   display: none;
 }
 
-/* line 32, assets/stylesheets/site.css.scss */
+/* line 32, assets/stylesheets/post.css.scss */
 footer {
   margin: 4rem auto 0;
   padding: 0;
 }
 
-/* line 37, assets/stylesheets/site.css.scss */
+/* line 37, assets/stylesheets/post.css.scss */
 pre {
   overflow: scroll;
 }
 
-/* line 41, assets/stylesheets/site.css.scss */
+/* line 41, assets/stylesheets/post.css.scss */
 code {
   color: #19100b;
   font-size: 1.15rem;
 }
 
-/* line 46, assets/stylesheets/site.css.scss */
+/* line 46, assets/stylesheets/post.css.scss */
 h2, a {
   color: #5c3c28;
 }
 
-/* line 50, assets/stylesheets/site.css.scss */
+/* line 50, assets/stylesheets/post.css.scss */
 h3 {
   margin-top: 2rem;
   color: #120c08;
 }
 
-/* line 55, assets/stylesheets/site.css.scss */
+/* line 55, assets/stylesheets/post.css.scss */
 table td, table th {
   text-align: left;
   padding: 0.25rem;
 }
 
 @media (prefers-color-scheme: dark) {
-  /* line 61, assets/stylesheets/site.css.scss */
+  /* line 61, assets/stylesheets/post.css.scss */
   body {
     background: #5c3c28;
     color: #fefefe;
   }
-  /* line 66, assets/stylesheets/site.css.scss */
+  /* line 66, assets/stylesheets/post.css.scss */
   h2, a {
     color: #efe3dc;
   }
-  /* line 70, assets/stylesheets/site.css.scss */
+  /* line 70, assets/stylesheets/post.css.scss */
   h3 {
     color: #e8d5ca;
   }
-  /* line 74, assets/stylesheets/site.css.scss */
+  /* line 74, assets/stylesheets/post.css.scss */
   code {
     color: #efe3dc;
   }
-  /* line 78, assets/stylesheets/site.css.scss */
+  /* line 78, assets/stylesheets/post.css.scss */
   .logo-light {
     display: none;
   }
-  /* line 82, assets/stylesheets/site.css.scss */
+  /* line 82, assets/stylesheets/post.css.scss */
   .logo-dark {
     display: block;
   }
